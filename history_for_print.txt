@@ -1,0 +1,66 @@
+    1  su - n
+    2  ssh-keygen -t rsa -P "" 
+    3  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+    4  chmod 600 ~/.ssh/authorized_keys
+    5  ssh-copy-id -i ~/.ssh/id_rsa.pub localhost
+    6  ssh localhost
+    7  nano ~/.bashrc
+    8  source ~/.bashrc
+    9  su -n
+   10  su - n
+   11  start-yarn.sh
+   12  jps
+   13  hadoop fs -cat /user/joe/wordcount/output/part-00000
+   14  java -version
+   15  wget https://doc-0c-6g-docs.googleusercontent.com/docs/securesc/d2qpeo7cqn4hfscvvapujncd2pr2fcjb/g1ddcceeromqm5abou7c6i44v9d8v209/1539468000000/05677260041423994010/02418445384214389373/0B_vqvT0ovzHcekp1WkVfUVNEdVE?e=download&nonce=teri69ke55jic&user=02418445384214389373&hash=231vd597ovkjpsp5o04mtlk9erfbl1m3
+   16  ls
+   17  wget https://doc-00-4s-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/g840lt9qvn6na2n2jlshl24n30fo61g2/1539468000000/05677260041423994010/*/0B_vqvT0ovzHcekp1WkVfUVNEdVE?e=download
+   18  ls
+   19  nano ~/.bashrc
+   20  source ~/.bashrc
+   21  nano ~/.bashrc
+   22  source ~/.bashrc
+   23  nano ~/.bashrc
+   24  source ~/.bashrc
+   25  nano ~/.bashrc
+   26  source ~/.bashrc
+   27  cd MapReduceTutorial/
+   28  ls
+   29  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   30  ls
+   31  cd ..
+   32  cd MapReduceTutorial/
+   33  gedit Manifest.txt
+   34  nano  Manifest.txt
+   35  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   36  ls
+   37  Hadoop fs –put Salesjan2009csv /inputMapreduce
+   38  hadoop fs –put Salesjan2009csv /inputMapreduce
+   39  jps
+   40  hadoop
+   41  hadoop fs –put Salesjan2009csv /inputMapreduce
+   42  hadoop dfs –put Salesjan2009csv /inputMapreduce
+   43  ls
+   44  hadoop dfs –put Salesjan2009.csv /inputMapreduce
+   45  hadoop dfs –put SalesJan2009.csv /inputMapreduce
+   46  hadoop fs –put SalesJan2009.csv /inputMapreduce
+   47  hadoop fs -put SalesJan2009.csv /inputMapreduce
+   48  cd..
+   49  cd
+   50  hadoop fs -rf  /inputMapreduc
+   51  hadoop fs -rm  /inputMapreduc
+   52  hadoop fs -rm  /inputMapreduce
+   53  hadoop fs -mkdir /inputMapReduce
+   54  cd MapReduceTutorial/
+   55  hadoop fs -mkdir /inputMapReduce
+   56  hadoop fs -put SalesJan2009.csv /inputMapreduce
+   57  $HADOOP_HOME/bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   58  $HADOOP_HOME/bin/hdfs dfs -cat /mapreduce_output_sales/part-00000
+   59  hadoop fs -rm  /inputMapreduce
+   60  hadoop fs -put SalesJan2009.csv /inputMapReduce
+   61  $HADOOP_HOME/bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   62  $HADOOP_HOME/bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales2
+   63  $HADOOP_HOME/bin/hdfs dfs -cat /mapreduce_output_sales2/part-00000
+   64  cd..
+   65  cd
+   66  history > history_for_print.txt
